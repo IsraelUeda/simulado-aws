@@ -1,0 +1,604 @@
+{
+  "title": "Practice Exam 1",
+  "language": "pt-BR",
+  "questions": [
+    {
+      "number": 1,
+      "question": "O AWS permite que os usuários gerenciem seus recursos usando uma interface de usuário baseada na web. Qual é o nome dessa interface?",
+      "options": {
+        "A": "AWS CLI",
+        "B": "AWS API",
+        "C": "AWS SDK",
+        "D": "AWS Management Console"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 2,
+      "question": "Qual das opções a seguir é um exemplo de escalabilidade horizontal na AWS Cloud?",
+      "options": {
+        "A": "Substituir uma instância EC2 existente por uma maior e mais potente.",
+        "B": "Aumentar a capacidade computacional de uma única instância EC2 para atender ao aumento das demandas de uma aplicação.",
+        "C": "Adicionar mais capacidade de RAM a uma instância EC2.",
+        "D": "Adicionar mais instâncias EC2 do mesmo tamanho para lidar com um aumento no tráfego."
+      },
+      "answer": "D"
+    },
+    {
+      "number": 3,
+      "question": "Você percebeu que várias instâncias críticas do Amazon EC2 foram encerradas. Qual dos seguintes serviços da AWS ajudaria a determinar quem realizou essa ação?",
+      "options": {
+        "A": "Amazon Inspector",
+        "B": "AWS CloudTrail",
+        "C": "AWS Trusted Advisor",
+        "D": "EC2 Instance Usage Report"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 4,
+      "question": "Quais das opções abaixo estão relacionadas à confiabilidade da AWS? (Escolha DUAS)",
+      "options": {
+        "A": "Aplicar o princípio do menor privilégio a todos os recursos da AWS.",
+        "B": "Provisionar automaticamente novos recursos para atender à demanda.",
+        "C": "Todos os serviços da AWS são considerados Global Services, e esse design ajuda os clientes a atender seus usuários internacionais.",
+        "D": "Fornecer compensação aos clientes caso ocorram problemas.",
+        "E": "Capacidade de se recuperar rapidamente de falhas."
+      },
+      "answer": [
+        "B",
+        "E"
+      ]
+    },
+    {
+      "number": 5,
+      "question": "Qual afirmação é verdadeira em relação ao AWS Shared Responsibility Model?",
+      "options": {
+        "A": "As responsabilidades variam dependendo dos serviços utilizados.",
+        "B": "A segurança dos serviços IaaS é responsabilidade da AWS.",
+        "C": "Aplicar patches no sistema operacional convidado é sempre responsabilidade da AWS.",
+        "D": "A segurança dos serviços gerenciados é responsabilidade do cliente."
+      },
+      "answer": "A"
+    },
+    {
+      "number": 6,
+      "question": "Você configurou o faturamento consolidado para várias contas AWS. Uma das contas comprou várias Reserved Instances por 3 anos. Qual das opções a seguir é verdadeira nesse cenário?",
+      "options": {
+        "A": "Os descontos das Reserved Instances só podem ser compartilhados com a conta principal.",
+        "B": "Todas as contas podem receber o benefício de custo por hora das Reserved Instances.",
+        "C": "As instâncias compradas terão desempenho melhor do que as instâncias On-demand.",
+        "D": "Não há benefícios de custo ao usar o faturamento consolidado; ele serve apenas para fins informativos."
+      },
+      "answer": "B"
+    },
+    {
+      "number": 7,
+      "question": "Uma empresa desenvolveu uma aplicação de comércio eletrônico na AWS. O que ela deve fazer para garantir que a aplicação tenha o maior nível de disponibilidade?",
+      "options": {
+        "A": "Implantar a aplicação em várias Availability Zones e Edge Locations.",
+        "B": "Implantar a aplicação em várias Availability Zones e subnets.",
+        "C": "Implantar a aplicação em várias Regions e Availability Zones.",
+        "D": "Implantar a aplicação em várias VPCs e subnets."
+      },
+      "answer": "C"
+    },
+    {
+      "number": 8,
+      "question": "O que o AWS Snowball oferece? (Escolha DUAS)",
+      "options": {
+        "A": "Capacidades computacionais integradas que permitem aos clientes processar dados localmente.",
+        "B": "Um catálogo de soluções de software de terceiros que os clientes precisam para criar soluções e executar seus negócios.",
+        "C": "Armazenamento de nuvem híbrida entre ambientes on-premises e a AWS Cloud.",
+        "D": "Um serviço de transferência de dados em escala de exabytes que permite mover quantidades extremamente grandes de dados para a AWS.",
+        "E": "Transferência segura de grandes quantidades de dados para dentro e para fora da AWS."
+      },
+      "answer": [
+        "A",
+        "E"
+      ]
+    },
+    {
+      "number": 9,
+      "question": "Uma empresa possui um plano AWS Enterprise Support. Ela deseja orientação rápida e eficiente com suas dúvidas de faturamento e conta. Qual das opções a seguir a empresa deve utilizar?",
+      "options": {
+        "A": "AWS Health Dashboard",
+        "B": "AWS Support Concierge",
+        "C": "AWS Customer Service",
+        "D": "AWS Operations Support"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 10,
+      "question": "Uma empresa japonesa hospeda suas aplicações em instâncias Amazon EC2 na Region de Tóquio. A empresa abriu novas filiais nos Estados Unidos, e os usuários dos EUA estão reclamando de alta latência. O que a empresa pode fazer para reduzir a latência para os usuários nos EUA enquanto minimiza os custos?",
+      "options": {
+        "A": "Aplicar a política de roteamento baseada em latência do Amazon Connect.",
+        "B": "Registrar um novo domínio dos EUA para atender aos usuários nos EUA.",
+        "C": "Construir um novo data center nos EUA e implementar um modelo híbrido.",
+        "D": "Implantar novas instâncias Amazon EC2 em uma Region localizada nos EUA."
+      },
+      "answer": "D"
+    },
+    {
+      "number": 11,
+      "question": "Uma organização possui um grande número de funcionários técnicos que operam sua infraestrutura AWS Cloud. O que a AWS fornece para ajudar a organizá-los em equipes e então atribuir as permissões apropriadas para cada equipe?",
+      "options": {
+        "A": "IAM roles",
+        "B": "IAM users",
+        "C": "IAM user groups",
+        "D": "AWS Organizations"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 12,
+      "question": "Uma empresa decidiu migrar seu banco de dados Oracle para a AWS. Qual serviço da AWS pode ajudar a realizar isso sem impactar negativamente a funcionalidade do banco de dados de origem?",
+      "options": {
+        "A": "AWS OpsWorks",
+        "B": "AWS Database Migration Service",
+        "C": "AWS Server Migration Service",
+        "D": "AWS Application Discovery Service"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 13,
+      "question": "Ajustar dinamicamente a capacidade computacional para reduzir custos é uma implementação de qual prática recomendada da AWS Cloud?",
+      "options": {
+        "A": "Construir segurança em todas as camadas.",
+        "B": "Paralelizar tarefas.",
+        "C": "Implementar elasticidade.",
+        "D": "Adotar uma arquitetura monolítica."
+      },
+      "answer": "C"
+    },
+    {
+      "number": 14,
+      "question": "Quais são os benefícios de ter uma infraestrutura hospedada na AWS? (Escolha DUAS)",
+      "options": {
+        "A": "Aumentar velocidade e agilidade.",
+        "B": "Não há necessidade de se preocupar com segurança.",
+        "C": "Obter controle completo sobre a infraestrutura física.",
+        "D": "Operar aplicações em nome dos clientes.",
+        "E": "Toda a segurança física e a maior parte da segurança de dados/rede são cuidadas para você."
+      },
+      "answer": [
+        "A",
+        "E"
+      ]
+    },
+    {
+      "number": 15,
+      "question": "Qual é a vantagem da prática recomendada pela AWS de \"desacoplar\" aplicações?",
+      "options": {
+        "A": "Permite tratar uma aplicação como uma única unidade coesa.",
+        "B": "Reduz interdependências para que falhas não afetem outros componentes da aplicação.",
+        "C": "Permite atualizar qualquer aplicação monolítica de forma rápida e fácil.",
+        "D": "Permite rastrear qualquer chamada de API feita a qualquer serviço da AWS."
+      },
+      "answer": "B"
+    },
+    {
+      "number": 16,
+      "question": "Qual das opções a seguir ajuda um cliente a visualizar a atividade de faturamento do Amazon EC2 do último mês?",
+      "options": {
+        "A": "AWS Budgets",
+        "B": "AWS Pricing Calculator",
+        "C": "AWS Systems Manager",
+        "D": "AWS Cost & Usage Reports"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 17,
+      "question": "O que você obtém ao configurar o faturamento consolidado para cinco contas AWS diferentes sob outra conta principal?",
+      "options": {
+        "A": "Os custos dos serviços AWS serão reduzidos à metade do preço original.",
+        "B": "O recurso de faturamento consolidado serve apenas para fins organizacionais.",
+        "C": "Cada conta AWS recebe descontos por volume.",
+        "D": "Cada conta AWS recebe cinco vezes a capacidade dos serviços do nível gratuito."
+      },
+      "answer": "C"
+    },
+    {
+      "number": 18,
+      "question": "O que você deve fazer para manter os dados nos volumes EBS seguros? (Escolha DUAS)",
+      "options": {
+        "A": "Atualizar regularmente o firmware dos dispositivos EBS.",
+        "B": "Criar snapshots do EBS.",
+        "C": "Garantir que os dados do EBS sejam criptografados em repouso.",
+        "D": "Armazenar um backup diário em uma unidade externa.",
+        "E": "Impedir qualquer acesso não autorizado aos data centers da AWS."
+      },
+      "answer": [
+        "B",
+        "C"
+      ]
+    },
+    {
+      "number": 19,
+      "question": "Uma das práticas recomendadas mais importantes da AWS é o princípio de arquitetura de nuvem chamado elasticidade. Como esse princípio melhora o design da sua arquitetura?",
+      "options": {
+        "A": "Escalando automaticamente seus recursos on-premises com base nas mudanças de demanda.",
+        "B": "Escalando automaticamente seus recursos AWS usando um Elastic Load Balancer.",
+        "C": "Reduzindo interdependências entre os componentes da aplicação sempre que possível.",
+        "D": "Provisionando automaticamente os recursos AWS necessários com base nas mudanças de demanda."
+      },
+      "answer": "D"
+    },
+    {
+      "number": 20,
+      "question": "Uma startup opera com recursos financeiros limitados e está extremamente preocupada com custos excedentes. Quais opções podem ser usadas para notificar a empresa quando sua conta mensal da AWS exceder US$ 2.000? (Escolha DUAS)",
+      "options": {
+        "A": "Configurar um alarme de faturamento do CloudWatch que acione uma notificação SNS quando o limite for excedido.",
+        "B": "Configurar o Amazon Simple Email Service para enviar alertas de faturamento diariamente para o endereço de e-mail da empresa.",
+        "C": "Configurar o AWS Budgets Service para alertar a empresa quando o limite for excedido.",
+        "D": "Configurar o AWS CloudTrail para excluir automaticamente todos os recursos AWS quando o limite for excedido.",
+        "E": "Configurar o Amazon Connect Service para alertar a empresa quando o limite for excedido."
+      },
+      "answer": [
+        "A",
+        "C"
+      ]
+    },
+    {
+      "number": 21,
+      "question": "O que o Amazon CloudFront utiliza para distribuir conteúdo para usuários globais com baixa latência?",
+      "options": {
+        "A": "AWS Global Accelerator",
+        "B": "AWS Regions",
+        "C": "AWS Edge Locations",
+        "D": "AWS Availability Zones"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 22,
+      "question": "A que se refere o \"Princípio do Menor Privilégio\"?",
+      "options": {
+        "A": "Você deve conceder aos usuários apenas as permissões de que precisam, quando precisam, e nada além disso.",
+        "B": "Todos os usuários IAM devem ter pelo menos as permissões necessárias para acessar os principais serviços AWS.",
+        "C": "Todos os usuários IAM confiáveis devem ter acesso a qualquer serviço AWS na respectiva conta AWS.",
+        "D": "Usuários IAM não devem receber nenhuma permissão, para manter sua conta segura."
+      },
+      "answer": "A"
+    },
+    {
+      "number": 23,
+      "question": "Qual das opções a seguir NÃO pertence aos modelos de computação em nuvem da AWS?",
+      "options": {
+        "A": "Platform as a Service (PaaS)",
+        "B": "Infrastructure as a Service (IaaS)",
+        "C": "Software as a Service (SaaS)",
+        "D": "Networking as a Service (NaaS)"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 24,
+      "question": "O processo de identificação de uma empresa de serviços financeiros online exige que novos usuários concluam uma entrevista online com sua equipe de segurança. As entrevistas gravadas concluídas são necessárias apenas em caso de problema jurídico ou violação de conformidade regulatória. Qual é o serviço mais econômico para armazenar os vídeos gravados?",
+      "options": {
+        "A": "S3 Intelligent-Tiering",
+        "B": "AWS Marketplace",
+        "C": "Amazon S3 Glacier Deep Archive",
+        "D": "Amazon EBS"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 25,
+      "question": "Qual serviço fornece DNS na AWS Cloud?",
+      "options": {
+        "A": "Route 53",
+        "B": "AWS Config",
+        "C": "Amazon CloudFront",
+        "D": "Amazon EMR"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 26,
+      "question": "Centenas de milhares de ataques DDoS são registrados todos os meses no mundo. Qual serviço a AWS fornece para ajudar a proteger os clientes AWS contra esses ataques? (Escolha DUAS)",
+      "options": {
+        "A": "AWS Shield",
+        "B": "AWS Config",
+        "C": "Amazon Cognito",
+        "D": "AWS WAF",
+        "E": "AWS KMS"
+      },
+      "answer": [
+        "A",
+        "D"
+      ]
+    },
+    {
+      "number": 27,
+      "question": "Uma empresa está implantando uma nova aplicação web de duas camadas na AWS. Onde os dados acessados com mais frequência devem ser armazenados para que o tempo de resposta da aplicação seja ideal?",
+      "options": {
+        "A": "AWS OpsWorks",
+        "B": "AWS Storage Gateway",
+        "C": "Amazon EBS volume",
+        "D": "Amazon ElastiCache"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 28,
+      "question": "Você deseja executar uma aplicação de questionário por apenas um dia, sem interrupção. Qual opção de compra do Amazon EC2 deve utilizar?",
+      "options": {
+        "A": "Reserved Instances",
+        "B": "Spot Instances",
+        "C": "Dedicated Instances",
+        "D": "On-demand Instances"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 29,
+      "question": "Você está trabalhando em um projeto que envolve a criação de miniaturas de milhões de imagens. Disponibilidade contínua não é uma exigência e o processamento contínuo não é necessário. Qual opção de compra do EC2 seria a mais econômica?",
+      "options": {
+        "A": "Reserved Instances",
+        "B": "On-demand Instances",
+        "C": "Dedicated Instances",
+        "D": "Spot Instances"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 30,
+      "question": "Qual das opções a seguir pode ser descrita como um serviço global de rede de distribuição de conteúdo (CDN)?",
+      "options": {
+        "A": "AWS VPN",
+        "B": "AWS Direct Connect",
+        "C": "AWS Regions",
+        "D": "Amazon CloudFront"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 31,
+      "question": "Qual dos seguintes serviços permite aos clientes gerenciar seus contratos com a AWS?",
+      "options": {
+        "A": "AWS Artifact",
+        "B": "AWS Certificate Manager",
+        "C": "AWS Systems Manager",
+        "D": "AWS Organizations"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 32,
+      "question": "Quais das opções a seguir são exemplos de AWS-Managed Services, nos quais a AWS é responsável pelas tarefas operacionais e de manutenção de execução do serviço? (Escolha DUAS)",
+      "options": {
+        "A": "Amazon VPC",
+        "B": "Amazon DynamoDB",
+        "C": "Amazon Elastic MapReduce",
+        "D": "AWS IAM",
+        "E": "Amazon Elastic Compute Cloud"
+      },
+      "answer": [
+        "B",
+        "C"
+      ]
+    },
+    {
+      "number": 33,
+      "question": "Sua empresa possui uma aplicação de armazenamento de dados que exige acesso a um banco de dados NoSQL. Qual oferta de banco de dados da AWS atenderia a esse requisito?",
+      "options": {
+        "A": "Amazon Aurora",
+        "B": "Amazon DynamoDB",
+        "C": "Amazon Elastic Block Store",
+        "D": "Amazon Redshift"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 34,
+      "question": "Como parte do plano Enterprise Support, quem é o principal ponto de contato para necessidades contínuas de suporte?",
+      "options": {
+        "A": "Usuário AWS Identity and Access Management (IAM)",
+        "B": "Engenheiro de Infrastructure Event Management (IEM)",
+        "C": "AWS Consulting Partners",
+        "D": "Technical Account Manager (TAM)"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 35,
+      "question": "Como você pode visualizar a distribuição dos gastos da AWS em uma de suas contas AWS?",
+      "options": {
+        "A": "Usando o console do Amazon VPC.",
+        "B": "Entrando em contato com a equipe AWS Support.",
+        "C": "Usando o AWS Cost Explorer.",
+        "D": "Entrando em contato com a equipe AWS Finance."
+      },
+      "answer": "C"
+    },
+    {
+      "number": 36,
+      "question": "O que um usuário IAM deve fornecer para interagir com os serviços AWS usando a AWS Command Line Interface (AWS CLI)?",
+      "options": {
+        "A": "Access keys",
+        "B": "Secret token",
+        "C": "UserID",
+        "D": "Nome de usuário e senha"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 37,
+      "question": "Você possui AWS Basic Support e descobriu que alguns recursos AWS estão sendo usados de forma maliciosa, podendo comprometer seus dados. O que você deve fazer?",
+      "options": {
+        "A": "Entrar em contato com a equipe AWS Customer Service.",
+        "B": "Entrar em contato com a equipe AWS Abuse.",
+        "C": "Entrar em contato com a equipe AWS Concierge.",
+        "D": "Entrar em contato com a equipe AWS Security."
+      },
+      "answer": "B"
+    },
+    {
+      "number": 38,
+      "question": "Selecione DOIS exemplos de controles compartilhados da AWS.",
+      "options": {
+        "A": "Patch Management",
+        "B": "IAM Management",
+        "C": "VPC Management",
+        "D": "Configuration Management",
+        "E": "Operações de Data Center"
+      },
+      "answer": [
+        "A",
+        "D"
+      ]
+    },
+    {
+      "number": 39,
+      "question": "Para implementar boas práticas ao lidar com um “Single Point of Failure”, você deve tentar construir o máximo possível de automação tanto na detecção quanto na reação a falhas. Quais dos seguintes serviços AWS ajudariam? (Escolha DUAS)",
+      "options": {
+        "A": "ELB",
+        "B": "Auto Scaling",
+        "C": "Amazon Athen",
+        "D": "ECR",
+        "E": "Amazon EC2"
+      },
+      "answer": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "number": 40,
+      "question": "Uma empresa está planejando hospedar um site educacional na AWS. Seus cursos em vídeo serão transmitidos para todo o mundo. Qual dos seguintes serviços AWS ajudará a alcançar altas velocidades de transferência?",
+      "options": {
+        "A": "Amazon SNS",
+        "B": "Amazon Kinesis Video Streams",
+        "C": "AWS CloudFormation",
+        "D": "Amazon CloudFront"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 41,
+      "question": "Um desenvolvedor está planejando criar uma aplicação web de duas camadas que possui uma camada de banco de dados MySQL. Qual dos seguintes serviços de banco de dados da AWS forneceria backups automatizados para a aplicação?",
+      "options": {
+        "A": "Um banco de dados MySQL instalado em uma instância EC2.",
+        "B": "Amazon Aurora",
+        "C": "Amazon DynamoDB",
+        "D": "Amazon Neptune"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 42,
+      "question": "Qual é o serviço AWS que permite aos arquitetos AWS gerenciar infraestrutura como código?",
+      "options": {
+        "A": "AWS CloudFormation",
+        "B": "AWS Config",
+        "C": "Amazon SES",
+        "D": "Amazon EMR"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 43,
+      "question": "No Shared Responsibility Model, qual das opções a seguir é responsabilidade da AWS?",
+      "options": {
+        "A": "Criptografia no lado do cliente.",
+        "B": "Configuração dos dispositivos de infraestrutura.",
+        "C": "Criptografia no lado do servidor.",
+        "D": "Filtragem de tráfego com Security Groups."
+      },
+      "answer": "B"
+    },
+    {
+      "number": 44,
+      "question": "O que o AWS Health Dashboard fornece? (Escolha DUAS)",
+      "options": {
+        "A": "Orientações detalhadas para solução de problemas para tratar eventos AWS que afetam seus recursos.",
+        "B": "Verificações de integridade para instâncias do Auto Scaling.",
+        "C": "Recomendações para otimização de custos.",
+        "D": "Um dashboard detalhando vulnerabilidades em suas aplicações.",
+        "E": "Uma visualização personalizada da saúde dos serviços AWS."
+      },
+      "answer": [
+        "A",
+        "E"
+      ]
+    },
+    {
+      "number": 45,
+      "question": "Você implantou sua aplicação em várias instâncias Amazon EC2. Seus clientes reclamam que às vezes não conseguem acessar sua aplicação. Qual serviço AWS permite monitorar o desempenho das suas instâncias EC2 para ajudar na solução desses problemas?",
+      "options": {
+        "A": "AWS Lambda",
+        "B": "AWS Config",
+        "C": "Amazon CloudWatch",
+        "D": "AWS CloudTrail"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 46,
+      "question": "Sua empresa está desenvolvendo uma aplicação web crítica na AWS, e a segurança da aplicação é uma prioridade máxima. Qual dos seguintes serviços AWS fornecerá recomendações de otimização da segurança da infraestrutura?",
+      "options": {
+        "A": "AWS Shield",
+        "B": "AWS Management Console",
+        "C": "AWS Secrets Manager",
+        "D": "AWS Trusted Advisor"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 47,
+      "question": "Qual das opções a seguir NÃO é um benefício do Amazon S3? (Escolha DUAS)",
+      "options": {
+        "A": "Amazon S3 fornece armazenamento ilimitado para qualquer tipo de dado.",
+        "B": "Amazon S3 pode executar qualquer tipo de aplicação ou sistema backend.",
+        "C": "Amazon S3 armazena qualquer quantidade de objetos, mas possui limites de tamanho por objeto.",
+        "D": "Amazon S3 pode ser escalado manualmente para armazenar e recuperar qualquer quantidade de dados de qualquer lugar.",
+        "E": "Amazon S3 fornece 99,999999999% (11 noves) de durabilidade dos dados."
+      },
+      "answer": [
+        "B",
+        "D"
+      ]
+    },
+    {
+      "number": 48,
+      "question": "No AWS Shared Responsibility Model, quais das opções a seguir são responsabilidades do cliente? (Escolha DUAS)",
+      "options": {
+        "A": "Descarte de discos.",
+        "B": "Controle do acesso físico aos recursos computacionais.",
+        "C": "Aplicação de patches na infraestrutura de rede.",
+        "D": "Definição das regras de complexidade de senhas.",
+        "E": "Configuração das regras de acesso à rede."
+      },
+      "answer": [
+        "D",
+        "E"
+      ]
+    },
+    {
+      "number": 49,
+      "question": "O que a AWS fornece para implantar tecnologias populares, como IBM MQ, na AWS com o mínimo de esforço e tempo?",
+      "options": {
+        "A": "Amazon Aurora",
+        "B": "Amazon CloudWatch",
+        "C": "AWS Quick Start reference deployments",
+        "D": "AWS OpsWorks"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 50,
+      "question": "Uma organização decidiu comprar uma Amazon EC2 Reserved Instance (RI) por três anos para reduzir custos. É possível que as cargas de trabalho da aplicação mudem durante o período da reserva. Qual tipo de EC2 Reserved Instance (RI) permitirá que a empresa troque a instância reservada adquirida por outra instância reservada com maior capacidade computacional, caso necessário?",
+      "options": {
+        "A": "Elastic RI",
+        "B": "Premium RI",
+        "C": "Standard RI",
+        "D": "Convertible RI"
+      },
+      "answer": "D"
+    }
+  ]
+}
